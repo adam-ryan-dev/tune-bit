@@ -1,1 +1,7 @@
+.clangd
+.clang-format
 .pio
+.zed
+compile_commands.json
+sdkconfig.seeed_xiao_esp32s3
+clangd.py
