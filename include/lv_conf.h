@@ -1,0 +1,22 @@
+#ifndef LV_CONF_H
+#define LV_CONF_H
+#define LV_COLOR_FORMAT_DEFAULT LV_COLOR_FORMAT_RGB565
+
+#define LV_USE_OS LV_OS_FREERTOS
+
+#define LV_USE_LOG 1
+#define LV_LOG_LEVEL LV_LOG_LEVEL_WARN
+
+#define LV_USE_LABEL 1
+#define LV_USE_BUTTON 1
+#define LV_USE_BAR 1
+
+#define LV_FONT_MONTSERRAT_14 1
+#define LV_FONT_MONTSERRAT_20 1
+#define LV_FONT_MONTSERRAT_32 1
+
+#define LV_USE_THEME_DEFAULT 1
+#define LV_USE_FLEX 1
+#define LV_USE_GRID 1
+
+#endif /* LV_CONF_H */
